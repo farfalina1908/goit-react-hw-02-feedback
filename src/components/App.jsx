@@ -3,21 +3,14 @@ import FeedbackOptions from './Feedback/FeedbackOptions/FeedbackOptions';
 import Statistics from './Feedback/Statistics/Statistics';
 import Section from './Feedback/Section/Section';
 import Notification from './Feedback/Notification/Notification';
+import Container from './Feedback/Container/Container';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <Container>
       <Feedback />
-    </div>
+    </Container>
+ 
   );
 };
 
